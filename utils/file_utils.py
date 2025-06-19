@@ -1,5 +1,5 @@
 # 允许的文件扩展名
-ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png', 'gif'}
+ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png', 'gif', 'ico'}
 
 def allowed_file(filename, allowed_types=None):
     """检查文件是否是允许的类型"""

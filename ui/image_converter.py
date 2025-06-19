@@ -25,7 +25,7 @@ class ImageConverter(QWidget):
         format_layout = QHBoxLayout()
         format_layout.addWidget(QLabel("选择转换格式:"))
         self.format_combo = QComboBox()
-        self.format_combo.addItems(["png", "jpg", "webp", "icns"])
+        self.format_combo.addItems(["png", "jpg", "webp", "icns","ico"])
         format_layout.addWidget(self.format_combo)
         layout.addLayout(format_layout)
 
